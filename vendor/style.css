@@ -1,0 +1,116 @@
+/* DOCUMENTATION INFORMATION 
+
+-Document: Thème brasserie
+    -Version : 1.0.0
+    -Author : Stéphane
+*/
+
+/* COLORS
+    -defaut body text #eee
+    -h1               #eee
+    -h2               #333333
+    -h3
+    
+    -button 
+    -button:hover 
+
+    -icon          
+
+    -border 
+*/
+
+/*FONTS
+
+    -Defaut      M PLUS 1P
+    -Subtitle    Gloria Hallelujah', cursive
+
+*/
+
+/*CSS DIRECTORY
+    
+    1.   =GLOBAL
+    2.   =HEADER
+    3.   =NAVBAR
+    4.   =CAROUSEL
+    5.   
+    6.   
+    7.   
+    8. 
+    9.   
+    10. 
+
+
+*/    
+  
+/* Global */
+
+html{
+    background-color: #fff;
+    text-align: center;
+
+}
+h1,h2,h3,h4{
+    font-family: "M PLUS 1p",'sans-serif';
+  
+    font-weight: 700;
+    word-spacing: 6px;
+    letter-spacing: -1px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: black;
+    
+} 
+
+/*Header*/
+
+header{
+    background-image: url("../images/beer-3510404_1920.jpg");
+    height: 70vh;    
+    background-position: center;    
+    background-size: cover;   
+    background-attachment: fixed;
+}   
+.home-title h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(211, 151, 22);
+    text-shadow: #FC0 1px 0 10px;
+}
+.home-title p{
+    font-size: 200% ;
+}
+.padding-p{
+    padding-left: 30px;
+}
+.box-content{
+    position: absolute;
+    box-sizing: content-box,border-box;
+    -moz-box-align: center;
+    text-align: center;
+    
+}
+.size-box-title{
+    margin: auto;
+    width: 580px;
+    height: 570px;
+    padding: 20px;
+    border: 4px double black;
+    border-radius: 5% / 5%; 
+}
+.padding-title-0{
+    padding-left: 0;
+}
+a:link{
+    text-decoration: none;
+    
+}
+
+/*Navbar*/
+
+section{
+    background-image: url(../images/wood-591631_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
