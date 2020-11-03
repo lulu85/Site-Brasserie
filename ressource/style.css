@@ -1,0 +1,191 @@
+/* DOCUMENTATION INFORMATION 
+
+-Document: Thème brasserie
+    -Version : 1.0.0
+    -Author : Stéphane
+*/
+
+/* COLORS
+    -defaut body text #eee
+    -h1               #eee
+    -h2               #333333
+    -h3
+    
+    -button 
+    -button:hover 
+
+    -icon          
+
+    -border 
+*/
+
+/*FONTS
+
+    -Defaut      M PLUS 1P
+    -Subtitle    Gloria Hallelujah', cursive
+
+*/
+
+/*CSS DIRECTORY
+    
+    1.   =GLOBAL
+    2.   =HEADER
+    3.   =NAVBAR
+    4.   =CAROUSEL
+    5.   
+    6.   
+    7.   
+    8. 
+    9.   
+    10. 
+
+
+*/    
+  
+/* Global */
+
+html{
+    background-color: #fff;
+    text-align: center;
+
+}
+h1,h2,h3,h4{
+    font-family: "M PLUS 1p",'sans-serif';
+  
+    font-weight: 400;
+    word-spacing: 6px;
+    letter-spacing: -1px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;       
+} 
+section{
+    padding: 60px 0 60px 0;
+}
+a:link{
+    text-decoration: none;    
+}
+
+/*Header*/
+
+header{
+    background-image: url("../images/beer-3510404_1920.jpg");
+    height: 70vh;    
+    background-position: center;    
+    background-size: cover;   
+    background-attachment: fixed;
+}   
+.home-title h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(211, 151, 22);
+    text-shadow: #FC0 1px 0 10px;
+}
+.home-title p{
+    font-size: 200% ;
+}
+.padding-left-p-30{
+    padding-left: 30px;
+}
+
+.padding-title-0{
+    padding-left: 0;
+}
+
+.position{
+    position: absolute;
+    top: 3%;  
+    float: none;
+    margin: 0 auto;
+}    
+.color-header-p{
+    color: black;
+}
+
+    
+
+/*Navbar Carousel*/
+
+section{
+    background-image: url(../images/wood-591631_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-white{
+    background-color: #fff;
+}
+.border{
+    border-radius: 5%/5%;
+}
+.color-li{
+    color: rgb(211, 151, 22);
+    text-shadow: #FC0 1px 0 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.padding-carousel-bottom-15{
+    padding-bottom: 15px;
+}
+
+
+/*Information*/
+
+.produits-img{
+    max-width: 100%;
+    height: auto;
+}
+.color-info-p{
+    color: #000;
+}
+.padding-img{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.padding-top-15{
+    padding-top: 15px;
+}
+
+/* Contactez-moi */
+
+.center{
+    text-align: center;
+}
+.size-400{
+
+    font-size: 400%;
+}
+.police-p-contactez-moi{
+    font-size: 30px;
+    font-weight: 400;
+}
+.btn-contactez-moi{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(211, 151, 22);
+    color: #fff;
+}
+.margin-btn-contactez-moi{
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    height:60px;
+    text-align: center;
+    padding: 20px 20px ;
+
+}
+.copyright{
+    text-align: center;
+   
+}
+.copyright a{
+    color: white;
+}
