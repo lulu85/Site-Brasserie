@@ -33,11 +33,13 @@
     3.   =NAVBAR
     4.   =CAROUSEL
     5.   =INFORMATION
-    6.   =CONTACTEZ-MOI
-    7.   =FOOTER
-    8. 
-    9.   
+    6.   =LES BIERES
+    7.   =LA FABRICATION
+    8.   =CONTACTEZ-MOI
+    9.   =FOOTER
     10. 
+    11.   
+    12. 
 
 
 */    
@@ -77,6 +79,7 @@ header{
     background-size: cover;   
     background-attachment: fixed;
 }   
+
 .home-title h1{
     font-family: 'Gloria Hallelujah', cursive;
     color: rgb(211, 151, 22);
@@ -131,6 +134,7 @@ section{
     max-width: 100%;
     height: auto;
 }
+
 .color-info-p{
     color: #000;
 }
@@ -144,9 +148,6 @@ section{
 
 /* Les bières */
 
-
-
-
 .séparation::after{
     display: block;
     height: 4px;
@@ -158,6 +159,9 @@ section{
     font-size: 160%; 
       
 }
+.padding-top-60{
+    padding-top: 60px;
+}
 .padding-top-150{
     padding-top: 150px;
 }    
@@ -168,6 +172,15 @@ section{
     padding-right: 0px;
 }
 
+/* La Fabrication */
+
+.produits-img-2{
+    max-width: 100%;
+    height: 634px;
+}
+.m-bottom-0{
+    margin-bottom: 0;
+}
 /* Contactez-moi */
 
 .center{
