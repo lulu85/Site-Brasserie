@@ -181,6 +181,33 @@ section{
 .m-bottom-0{
     margin-bottom: 0;
 }
+
+/* Visite de la brasserie */
+
+.size-position-map{
+    top: 0;
+    left: 0;
+    width: 100%;   
+}
+.m-left-name-email{
+    margin-left: 7%;
+}
+.m-label{
+    margin: 15px 0px 0px 95px;
+}
+.m-label-textarea{
+    margin: 85px 0px 0px 95px;
+}
+.m-left-textarea{
+    margin-left: 4%;
+}
+.width-40{
+    width: 40%;
+}
+.m-checkbox{
+    margin: 15px 0px 0px 95px;
+}
+
 /* Contactez-moi */
 
 .center{
